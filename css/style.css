@@ -1,0 +1,108 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+.btn-primary{
+  background-color: white !important;
+  color: black !important;
+  border-color: white !important;
+}
+#title img{
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+#title .gradient-background{
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+#title .container{
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+#title .row{
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+#features .container{
+  margin-top: 5px !important;
+}
+#testimonial h2{
+  text-align: center;
+  margin: 0 6rem;
+}
+#testimonial .container2{
+  margin: 4rem 0 0 0;
+  display: flex;
+  justify-content: center;
+}
+#testimonial .dog{
+  border-radius: 50%;
+  
+}
+#testimonial p{
+  text-align: center;
+  font-family: 'Gruppo', sans-serif;
+}
+#testimonial .container{
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
+}
+.lgg{
+  color: midnightblue !important;
+  font-weight: bold;
+}
+#testimonial .col-lg-3{
+  display: flex !important;
+  justify-content: center !important;
+}
+
+#pricing h1{
+  text-align: center;
+  font-size: 50px;
+  font-weight: 400;
+  margin-top: 5rem;
+}
+#pricing p{
+  text-align: center;
+  color: grey;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+#pricing .row{
+  margin: 0 5rem !important;
+}
+
+#footer .row{
+  margin-bottom: 0px !important;
+  border-top: 0px !important;
+}
+#pricing .card-body{
+  padding-top: 0 !important;
+}
+
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
